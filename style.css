@@ -1,0 +1,49 @@
+section {
+    margin: 100px auto;
+    width: 70%;
+    font-size: 2rem;
+}
+i {
+    float: right;
+}
+.questions {
+    padding-top: 25px;
+}
+.optStyle {
+    margin-top: 10px;
+}
+.rightAnswer {
+    background-color: #3eaf3e;
+    text-align: center;
+    color: white;
+}
+.wrongAnswer {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.results {
+    text-align: center;
+}
+#playagain {
+    display: none;
+    background-color: burlywood;
+    margin: 10px auto;
+}
+button {
+    padding: 20px 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+}
+button#next {
+    padding: 20px 67px;
+}
+@media (max-width: 767px) {
+    section {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+}
